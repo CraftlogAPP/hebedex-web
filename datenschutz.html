@@ -48,7 +48,7 @@
     </header>
 
     <h1>Datenschutzerklärung</h1>
-    <p class="stand">Stand: Oktober 2026 · Gilt für die mobile App „HebeDex" und diese Website.</p>
+    <p class="stand">Stand: November 2026 · Gilt für die mobile App „HebeDex" und diese Website.</p>
 
     <h2>1. Verantwortlicher</h2>
     <p>
@@ -74,7 +74,9 @@
     <p>Von Ihnen eingegebene Angaben zu Ihrem Betrieb, Ihren Standorten (Name, Adressen, Ansprechpartner)
       und Ihren Anschlag-, Lastaufnahme- und Zurrmitteln (Typ, Tragfähigkeit, Maße, Hersteller,
       Seriennummer, Herstelljahr, Etikettfotos). Standort-Adressen werden zur Zuordnung des
-      GPS-Stempels in Koordinaten umgerechnet. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
+      GPS-Stempels in Koordinaten umgerechnet. Die Umrechnung erfolgt über den Adressdienst des
+      Betriebssystems (auf Android Google, auf dem iPhone Apple); dabei wird die eingegebene Adresse an
+      diesen Dienst übermittelt. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
     <h3>c) Prüf-Dokumentation</h3>
     <p>Beim Dokumentieren einer Prüfung speichern wir Zeitpunkt, Prüfart (Sichtkontrolle, wiederkehrende Prüfung
       oder Rissprüfung), die Ergebnisse der Checkliste, Messwerte des Ablegereife-Rechners, erfasste
@@ -90,13 +92,19 @@
     <h3>e) Erinnerungen</h3>
     <p>Die optionale Prüf- und Fristen-Erinnerung wird lokal auf Ihrem Gerät geplant
       (Benachrichtigung). Dabei werden keine Daten an uns oder Dritte übermittelt.</p>
+    <h3>f) Kamera und Fotos</h3>
+    <p>Die Kamera wird nur verwendet, wenn Sie ein QR-Etikett scannen oder ein Foto aufnehmen (Etikett,
+      Prüfung, Mangel). Vorhandene Bilder – etwa Ihr Firmenlogo für die PDF-Berichte – wählen Sie über die
+      Fotoauswahl des Systems aus. Die Berechtigung kann jederzeit in den Systemeinstellungen entzogen werden.</p>
 
     <h2>4. Auftragsverarbeiter &amp; Empfänger</h2>
     <ul>
       <li><strong>Supabase</strong> (Datenbank &amp; Anmeldung; Datenregion EU/Frankfurt) — speichert Konto-, Bestands- und Prüfdaten.</li>
       <li><strong>Google</strong> (nur bei Nutzung der Google-Anmeldung) — Authentifizierung; wir erhalten E-Mail-Adresse und Namen.</li>
       <li><strong>Apple</strong> (nur bei Nutzung von „Mit Apple anmelden“ auf dem iPhone) — Authentifizierung; wir erhalten eine Kennung, Ihre E-Mail-Adresse (auf Wunsch eine von Apple anonymisierte Weiterleitungsadresse) und – falls freigegeben – Ihren Namen.</li>
-      <li><strong>Google Play bzw. Apple App Store / RevenueCat</strong> — Abwicklung von In-App-Käufen (sofern Sie ein Abo abschließen); wir erhalten keine Zahlungsdaten.</li>
+      <li><strong>Google Play bzw. Apple App Store</strong> — Abwicklung von In-App-Käufen (sofern Sie ein Abo abschließen); wir erhalten keine Zahlungsdaten.</li>
+      <li><strong>RevenueCat, Inc. (USA)</strong> — Verwaltung des Kaufstatus; übermittelt werden Kauf-/Belegdaten und eine pseudonyme Nutzerkennung (SHA-256-Hashwert Ihrer E-Mail-Adresse). Die Übermittlung in die USA erfolgt auf Grundlage von EU-Standardvertragsklauseln.</li>
+      <li><strong>Dexware-Suite-Abgleich</strong> — Damit ein Abo der Dexware Suite app-übergreifend erkannt wird, fragt die App den Abo-Status mit diesem Hashwert bei unserem Suite-Server (Supabase, EU) ab; die E-Mail-Adresse selbst wird dabei nicht übermittelt.</li>
     </ul>
 
     <h2>5. Speicherdauer</h2>

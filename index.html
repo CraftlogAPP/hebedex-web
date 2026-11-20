@@ -355,60 +355,36 @@
     .stage { position: absolute; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
     @media (max-width: 900px) { .hero.staged { min-height: 0; } }
 
-    .hero.st-plan-h { background:
-      linear-gradient(color-mix(in oklab, var(--accent) 8%, transparent) 1px, transparent 1px) 0 0 / 120px 120px,
-      linear-gradient(90deg, color-mix(in oklab, var(--accent) 8%, transparent) 1px, transparent 1px) 0 0 / 120px 120px, var(--bg); }
-    .hero.st-plan-h::after { content: ''; position: absolute; inset: 0; z-index: -2; pointer-events: none;
-      background: linear-gradient(90deg, var(--bg) 0%, color-mix(in oklab, var(--bg) 80%, transparent) 36%, transparent 60%), linear-gradient(0deg, var(--bg), transparent 24%); }
-    .st-plan::before { content: ''; position: absolute; left: calc(50% + 196px); top: 50%; width: 520px; height: 520px; translate: -50% -50%; border-radius: 50%;
-      background: radial-gradient(closest-side, color-mix(in oklab, var(--accent) 22%, transparent), transparent); }
-    .st-plan svg { position: absolute; left: calc(50% + 196px); top: 50%; height: min(82%, 545px); width: auto; aspect-ratio: 380 / 620; translate: -50% -50%; overflow: visible; }
-    .st-plan svg * { fill: none; stroke-linecap: round; stroke-linejoin: round; transform-box: view-box; }
-    .st-plan .b { stroke: color-mix(in oklab, var(--ink) 74%, transparent); stroke-width: 7; }
-    .st-plan .b.up { fill: var(--bg); stroke-width: 4; }
-    .st-plan .f { stroke: color-mix(in oklab, var(--ink) 34%, transparent); stroke-width: 3; fill: color-mix(in oklab, var(--ink) 7%, var(--bg)); }
-    .st-plan .g { stroke: color-mix(in oklab, var(--ink) 22%, transparent); stroke-width: 3; }
-    .st-plan .a { stroke: var(--accent); stroke-width: 4; fill: color-mix(in oklab, var(--accent) 24%, var(--bg)); }
-    .st-plan .p { stroke: var(--accent); stroke-width: 8; }
-    .st-plan .p.thin { stroke-width: 4; fill: var(--accent); }
-    .st-plan .r { stroke: color-mix(in oklab, var(--ink) 34%, transparent); stroke-width: 8; }
-    .st-plan .ch { stroke: color-mix(in oklab, var(--ink) 76%, transparent); stroke-width: 9; stroke-dasharray: 15 12; }
-    .st-plan .sh { fill: rgba(0,0,0,.55); filter: blur(7px); transform-origin: 190px 598px; }
-    .st-plan .fl { stroke: #fff; stroke-width: 3.5; stroke-dasharray: 2 30; opacity: .85; }
-    .st-plan .fl.back { opacity: .4; }
-    .st-plan .scan rect { fill: color-mix(in oklab, var(--accent) 16%, transparent); }
-    .st-plan .scan path { stroke: var(--accent); stroke-width: 3; }
-    .st-plan .a.seq { fill: var(--accent); fill-opacity: .16; }
-    @media (prefers-reduced-motion: no-preference) {
-      .st-plan svg { animation: plan-in 1.1s cubic-bezier(.2,.7,.2,1) both; }
-      .st-plan .hoist { animation: plan-hoist 8s ease-in-out infinite; }
-      .st-plan .swing { transform-origin: 190px 112px; animation: plan-swing 5.5s ease-in-out infinite; }
-      .st-plan .sh { animation: plan-shadow 8s ease-in-out infinite; }
-      .st-plan .a.seq { animation: plan-seq 6s ease-in-out calc(var(--i) * 1.1s) infinite; }
-      .st-plan .scan { animation: plan-scan 6.5s cubic-bezier(.45,0,.55,1) infinite alternate; }
-      .st-plan .fl { animation: plan-flow 1.5s linear infinite; }
-    }
-    @keyframes plan-in { from { opacity: 0; transform: translateY(26px) scale(.97); } to { opacity: 1; transform: none; } }
-    @keyframes plan-hoist { 0%, 100% { transform: translateY(8px); } 50% { transform: translateY(-22px); } }
-    @keyframes plan-swing { 0%, 100% { transform: rotate(-1.8deg); } 50% { transform: rotate(1.8deg); } }
-    @keyframes plan-shadow { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.84); opacity: .6; } }
-    @keyframes plan-seq { 0%, 30%, 100% { fill-opacity: .16; } 12% { fill-opacity: .95; } }
-    @keyframes plan-scan { from { transform: translateY(40px); } to { transform: translateY(500px); } }
-    @keyframes plan-flow { to { stroke-dashoffset: -32; } }
-    /* Ein Handy rechts neben der Zeichnung */
-    .hero.st-plan-h .shots .phone.b { display: none; }
-    .hero.st-plan-h .shots .phone.a { left: calc(50% + 135px); top: 14px; translate: -50% 0; transform: rotate(3deg); }
-    .hero.st-plan-h .shots::before { content: ''; position: absolute; left: calc(50% + 135px); bottom: 0; width: 60%; height: 26px; translate: -50% 40%; border-radius: 50%; z-index: -1;
-      background: rgba(0,0,0,.6); filter: blur(18px); }
+    .hero.st-row-h { display: block; min-height: 0; padding-bottom: 0;
+      background: radial-gradient(120% 60% at 50% 100%, color-mix(in oklab, var(--accent) 20%, transparent), transparent 70%), var(--bg); }
+    .hero.st-row-h > .wrap { grid-template-columns: 1fr; text-align: center; padding-top: 72px; padding-bottom: 8px; }
+    .hero.st-row-h > .wrap > div:first-child { max-width: 860px; margin: 0 auto; }
+    .hero.st-row-h h1 { font-size: clamp(36px, 5.4vw, 64px); }
+    .hero.st-row-h .sub { margin-left: auto; margin-right: auto; max-width: 640px; }
+    .hero.st-row-h .cta, .hero.st-row-h .ticks, .hero.st-row-h .hint { justify-content: center; }
+    .hero.st-row-h .ticks { border-top: 0; padding-top: 0; }
+    .hero.st-row-h .ios-tab { margin-left: auto; margin-right: auto; text-align: left; }
+    .hero.st-row-h .shots { display: none; }
+    .row-phones { position: relative; display: flex; justify-content: center; align-items: flex-start; height: 430px; margin-top: 44px; overflow: hidden; padding-top: 14px; }
+    .row-phones .phone { --pw: 232px; position: relative; flex: none; }
+    .hero.st-row-h::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 120px; pointer-events: none; z-index: 2;
+      background: linear-gradient(0deg, var(--bg), transparent); }
+    .row-phones .phone { transform-origin: 50% 190%; margin: 0 -52px; }
+    .row-phones .p1 { transform: translateY(18px) rotate(-22deg); } .row-phones .p2 { transform: translateY(18px) rotate(-11deg); z-index: 2; }
+    .row-phones .p3 { transform: translateY(18px); z-index: 3; }
+    .row-phones .p4 { transform: translateY(18px) rotate(11deg); z-index: 2; } .row-phones .p5 { transform: translateY(18px) rotate(22deg); }
     @media (max-width: 900px) {
-      .st-plan::before { left: 50%; top: auto; bottom: -60px; translate: -50% 0; }
-      .st-plan svg { left: 50%; translate: -50% 0; top: auto; bottom: 10px; height: 440px; opacity: .5; }
-      .hero.st-plan-h .shots .phone.a, .hero.st-plan-h .shots::before { left: 50%; }
-      .hero.st-plan-h::after { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in oklab, var(--bg) 88%, transparent) 50%, transparent 74%, var(--bg) 100%); }
-      .hero.st-plan-h .shots .phone.a { top: 6px; }
+      .hero.st-row-h > .wrap { padding-top: 40px; }
+      .hero.st-row-h .ticks { justify-content: flex-start; text-align: left; }
+      .row-phones { height: 330px; margin-top: 30px; }
+      .hero.st-row-h::after { height: 64px; }
+      .row-phones .phone { --pw: 168px; }
+      .row-phones:not(.band) .p1, .row-phones:not(.band) .p5 { display: none; }
     }
+    @media (max-width: 520px) { .row-phones .phone { --pw: 138px; } .row-phones { height: 280px; }
+      .row-phones .p2 { margin-right: -22px; } .row-phones .p4 { margin-left: -22px; } }
 
-    /* Kopf „hebedex“: Bühne plan, phones=swap, frame=tint (looks.js, stages.js) */
+    /* Kopf „hebedex“: Bühne row, phones=swap, frame=tint (looks.js, stages.js) */
     .shots .phone { background: linear-gradient(160deg, color-mix(in oklab, var(--accent) 55%, #2b2b31), #0e0e11 46%); }
 
     .kicker { background: color-mix(in oklab, var(--accent) 9%, transparent); border: 1px solid color-mix(in oklab, var(--accent) 50%, transparent);
@@ -441,13 +417,8 @@
   </header>
 
   <main>
-    <div class="hero staged st-plan-h">
-      <div class="stage st-plan" aria-hidden="true"><svg viewBox="0 0 380 620" preserveAspectRatio="xMidYMid meet"><ellipse class="sh" cx="190" cy="598" rx="150" ry="11"/>
-      <g class="hoist"><path class="b" d="M190 -40V54"/><path class="b" d="M190 54v12a22 22 0 1 0 22 22"/>
-        <g class="swing"><ellipse class="a" cx="190" cy="142" rx="20" ry="30"/>
-          <path class="ch" d="M181 168L72 396"/><path class="ch" d="M199 168L308 396"/>
-          <rect class="f" x="30" y="408" width="320" height="124" rx="16"/><path class="g" d="M30 452H350"/><path class="g" d="M120 408V532M260 408V532"/>
-          <circle class="a" cx="72" cy="408" r="13"/><circle class="a" cx="308" cy="408" r="13"/></g></g></svg></div>
+    <div class="hero staged st-row-h">
+      
       <div class="wrap">
         <div>
           <span class="kicker">Ketten, Hebebänder & Zurrgurte · DE · AT</span>
@@ -466,6 +437,7 @@
           <div class="phone b"><div class="screen" style="--bar:#0e120b"><img src="assets/shots/hero-2.webp" width="600" height="1123" alt="HebeDex: Startseite mit Ampel — fällig, bald fällig, gesperrt" decoding="async"></div></div>
         </div>
       </div>
+      <div class="row-phones" aria-label="Screenshots der App"><div class="phone p1"><div class="screen" style="--bar:#0e120b"><img src="assets/shots/wand-3.webp" width="300" height="562" alt="" decoding="async"></div></div><div class="phone p2"><div class="screen" style="--bar:#0e120b"><img src="assets/shots/hero-2.webp" width="600" height="1123" alt="HebeDex: Startseite mit Ampel — fällig, bald fällig, gesperrt" decoding="async"></div></div><div class="phone p3"><div class="screen" style="--bar:#0e120b"><img src="assets/shots/hero-1.webp" width="600" height="1123" alt="HebeDex: Prüfung mit einem Tipp — „Alles in Ordnung"" decoding="async"></div></div><div class="phone p4"><div class="screen" style="--bar:#0e120b"><img src="assets/shots/wand-4.webp" width="300" height="562" alt="" decoding="async"></div></div><div class="phone p5"><div class="screen" style="--bar:#0e120b"><img src="assets/shots/wand-5.webp" width="300" height="562" alt="" decoding="async"></div></div></div>
     </div>
 
     <section class="soft" id="pflicht">

@@ -35,6 +35,12 @@ Für Bau, Metallbau, Montage, Lager, Logistik und Prüfdienste.
 - Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
 - Preise inkl. MwSt., Abo jederzeit kündbar.
 
+## Was HebeDex nicht ist
+
+- Kein Ersatz für die befähigte Person: HebeDex unterstützt ausschließlich bei der Dokumentation und ersetzt keine fachliche Beurteilung. HebeDex ersetzt die Befähigung nicht, es dokumentiert Prüfung, Messwerte und Ergebnis.
+- Keine Rechtsberatung: Die Ratgeber von HebeDex geben einen Überblick und ersetzen weder die Originaltexte der Vorschriften noch die Angaben des Herstellers oder die Beurteilung durch die befähigte Person.
+- Eine iPhone-App im App Store gibt es noch nicht; am iPhone und iPad läuft HebeDex im Browser (Anschlag- und Lastaufnahmemittel prüfen — mit Checkliste, Fotos und Unterschrift). QR-Scan, Erinnerungen und einige Extras gibt es vorerst nur in der Android-App.
+
 ## Kurz beantwortet
 
 - Wer darf Anschlagmittel prüfen? Eine befähigte Person, meist ein eigener Mitarbeiter mit einem ein- bis zweitägigen Lehrgang für Anschlag- und Zurrmittel, oder ein externer Prüfdienst.

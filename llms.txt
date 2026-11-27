@@ -1,0 +1,68 @@
+# HebeDex
+
+> HebeDex ist eine App von Dexware. Ketten, Hebebänder und Zurrgurte per QR-Etikett prüfen: Ablegereife-Rechner, Fristen nach DGUV Regel 109-017 und AM-VO, Prüfbuch als PDF. 3 Teile gratis. Android-App bei Google Play, am iPhone im Browser. Pro 9,99 € im Monat oder 79,99 € im Jahr.
+
+Sachliche Kurzinfo für Sprachmodelle und Suchdienste. Maßgeblich sind die Angaben auf https://hebedex.dexware.app/. Anbieter: Dexware (https://dexware.app/), Kontakt: support@dexware.app.
+
+## Was HebeDex macht
+
+- Jedes Teil hat seine Nummer: QR-Etikettenbogen ausdrucken (24 je Seite), an Kabelbinder oder Anhänger, scannen öffnet direkt die Prüfung. 10 gleiche Hebebänder in einem Schritt anlegen, Farbe nach Tragfähigkeit (EN 1492) vorgeschlagen.
+- Prüfen in 10 Sekunden: Scannen, „Alles in Ordnung" tippen, fertig. Nur bei einem Mangel klappt die Checkliste auf. Der Ablegereife-Rechner prüft Kette (Glieddicke, Längung), Drahtseil (Drahtbrüche auf 3d, 6d, 30d) und Haken (Maulaufweitung). Ab der Grenze zeigt der Rechner Rot, markiert den Prüfpunkt als Mangel und schlägt die Sperrung vor.
+- Prüfbuch als PDF, Fristen im Blick: Bestand mit Status, Prüfungen, Messwerte, Mängel, Fotos und Unterschrift, mit Rechtsgrundlagen für Deutschland und Österreich. Ampel auf der Startseite und Erinnerung 30 Tage vorher, auch an die Rissprüfung der Ketten.
+
+## Am PC im Dexware-Dashboard
+
+Was du an Ketten, Hebebändern und Zurrgurten prüfst, siehst du im Dexware-Dashboard am Computer — mit demselben Konto, ohne Installation.
+
+- Fällig und gesperrt: Wiederkehrende Prüfung, Rissprüfung der Ketten, offene Mängel und gesperrte Teile auf einer Seite.
+- Prüfbuch-PDF: Je Standort und Zeitraum, mit Checklisten, Ablegereife-Messwerten, Bestand, ausgesonderten Teilen und Fotos.
+- Excel rein und raus: Teile aus einer Liste einlesen, Prüfbuch mit Rissprüfung und Prüfungen samt Messwerten als Excel-Datei.
+- Team per Code: Mitarbeiter mit einem Team-Code dazuholen (Pro), Mitglieder sehen und entfernen.
+
+## Für wen
+
+Für Bau, Metallbau, Montage, Lager, Logistik und Prüfdienste.
+
+## Preise
+
+- Gratis (für immer): Bis 3 aktive Teile; QR-Etiketten, Rechner, Prüftag; Prüfbuch-PDF mit Wasserzeichen; Beispiel-Lager zum Ausprobieren
+- Pro: 9,99 € im Monat oder 79,99 € im Jahr. Enthält: Unbegrenzt viele Teile; Team mit bis zu 20 Mitarbeitern; Prüfbuch ohne Wasserzeichen, mit eigenem Logo; Fristen-Erinnerungen; Prioritäts-Support
+- Stufen nach Teamgröße (ein Abo pro Betrieb, Mitarbeiter treten per Team-Code bei und brauchen kein eigenes Abo):
+  - Pro (bis 20 Mitarbeiter): 9,99 € im Monat · 79,99 € im Jahr
+  - Team (bis 50 Mitarbeiter): 14,99 € im Monat · 119,99 € im Jahr
+  - Team XL (bis 100 Mitarbeiter): 19,99 € im Monat · 159,99 € im Jahr
+  - Unternehmen (über 100 Mitarbeiter): Angebot · auf Rechnung
+- Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
+- Preise inkl. MwSt., Abo jederzeit kündbar.
+
+## Kurz beantwortet
+
+- Wer darf Anschlagmittel prüfen? Eine befähigte Person, meist ein eigener Mitarbeiter mit einem ein- bis zweitägigen Lehrgang für Anschlag- und Zurrmittel, oder ein externer Prüfdienst.
+- Wie oft müssen Ketten und Hebebänder zur Prüfung? In Deutschland nach DGUV Regel 109-017 längstens alle 12 Monate; die BetrSichV selbst nennt keine feste Frist, die legt der Arbeitgeber in der Gefährdungsbeurteilung fest.
+- Müssen Zurrgurte auch geprüft werden? Ja, sie sind Arbeitsmittel nach BetrSichV. Üblich sind eine Sichtkontrolle vor jeder Benutzung und wenigstens jährlich eine Prüfung, die eine befähigte Person übernimmt (Praxis nach VDI 2700 Blatt 3.1).
+- Wann ist eine Kette ablegereif? Unter anderem bei 5 % Längung der Kette oder eines Glieds, wenn die mittlere Glieddicke an der Auflagestelle 10 % unter dem Nennmaß liegt, und bei Rissen, Kerben, Verformung oder Hitzeschäden; dazu kommen die Angaben des Herstellers.
+- Läuft HebeDex auch im Büro? Ja. Bestand, fällige Prüfungen und gesperrte Teile stehen im Dexware-Dashboard auch im Browser.
+- Lässt sich HebeDex vorher ausprobieren? Gern. Direkt nach der Willkommens-Tour füllt ein Tipp ein Beispiel-Lager mit 8 Musterteilen. Sie belasten dein Gratis-Kontingent von 3 Teilen nicht und verschwinden mit einem weiteren Tipp.
+- Alle Antworten: https://hebedex.dexware.app/#faq
+
+## Seiten
+
+- [Startseite](https://hebedex.dexware.app/): Funktionen, Preise, häufige Fragen
+- [Preise](https://hebedex.dexware.app/#preise): Gratis, Pro und Stufen nach Teamgröße
+- [Häufige Fragen](https://hebedex.dexware.app/#faq)
+- [HebeDex am iPhone](https://hebedex.dexware.app/#iphone): im Browser, ohne App Store
+- [Dexware-Dashboard](https://dashboard.dexware.app/app/hebedex): am PC im Browser, mit demselben Konto
+- [Google Play](https://play.google.com/store/apps/details?id=com.hebedex.app): Android-App
+- [Dexware](https://dexware.app/): alle Apps von Dexware
+
+## Ratgeber
+
+- [Anschlagmittel prüfen: Fristen, befähigte Person, Ablegereife](https://hebedex.dexware.app/ratgeber-anschlagmittel-pruefen.html): Ketten, Hebebänder, Rundschlingen, Drahtseile und Zurrgurte prüfen: jährliche Prüfung nach DGUV Regel 109-017, Rissprüfung alle 3 Jahre, AM-VO § 8 in Österreich, Ablegereife-Grenzen und Dokumentation.
+- [Zurrgurte prüfen: Ablegereife nach DIN EN 12195-2](https://hebedex.dexware.app/ratgeber-zurrgurte-ablegereife.html): Wann ist ein Zurrgurt ablegereif? Einschnitte über 10 %, beschädigte Nähte, Hakenmaul +5 %, fehlendes Etikett: Kriterien nach DIN EN 12195-2 und VDI 2700 Blatt 3.1, Prüffrist.
+
+## Rechtliches
+
+- [Impressum](https://hebedex.dexware.app/impressum.html)
+- [Datenschutz](https://hebedex.dexware.app/datenschutz.html)
+- [AGB](https://hebedex.dexware.app/agb.html)
+- [AVV](https://hebedex.dexware.app/avv.html)

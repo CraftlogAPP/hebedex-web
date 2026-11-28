@@ -63,8 +63,8 @@ Für Bau, Metallbau, Montage, Lager, Logistik und Prüfdienste.
 
 ## Ratgeber
 
-- [Anschlagmittel prüfen: Fristen, befähigte Person, Ablegereife](https://hebedex.dexware.app/ratgeber-anschlagmittel-pruefen.html): Ketten, Hebebänder, Rundschlingen, Drahtseile und Zurrgurte prüfen: jährliche Prüfung nach DGUV Regel 109-017, Rissprüfung alle 3 Jahre, AM-VO § 8 in Österreich, Ablegereife-Grenzen und Dokumentation.
-- [Zurrgurte prüfen: Ablegereife nach DIN EN 12195-2](https://hebedex.dexware.app/ratgeber-zurrgurte-ablegereife.html): Wann ist ein Zurrgurt ablegereif? Einschnitte über 10 %, beschädigte Nähte, Hakenmaul +5 %, fehlendes Etikett: Kriterien nach DIN EN 12195-2 und VDI 2700 Blatt 3.1, Prüffrist.
+- [Anschlagmittel prüfen: Fristen & Ablegereife](https://hebedex.dexware.app/ratgeber-anschlagmittel-pruefen.html): Ketten, Hebebänder, Rundschlingen und Drahtseile prüfen: jährlich nach DGUV Regel 109-017, Rissprüfung alle 3 Jahre, AM-VO in Österreich, Ablegereife.
+- [Zurrgurte prüfen: Ablegereife nach DIN EN 12195-2](https://hebedex.dexware.app/ratgeber-zurrgurte-ablegereife.html): Wann ist ein Zurrgurt ablegereif? Einschnitte über 10 %, beschädigte Nähte, Hakenmaul +5 %, fehlendes Etikett: Kriterien nach DIN EN 12195-2 und Prüffrist.
 
 ## Rechtliches
 
